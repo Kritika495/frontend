@@ -1,0 +1,115 @@
+body {
+    background-image: url("images/bg.png");
+    color: white;
+}
+
+.top-container {
+    padding: 10px 20px 10px 20px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.menus {
+    float: right;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+}
+
+.dark {
+    padding: 10px 20px 10px 20px;
+    color: black;
+    border-radius: 30px;
+
+}
+
+.light {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+}
+
+.middle-container {
+    padding: 100px;
+    50px 100px 50px;
+    font-family: monospace;
+}
+
+.info {
+    font-size: 28px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 33px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.quote {
+    font-size: 16px;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 30px 15px 30px;
+    color: darkgrey;
+    border: 1px solid white;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.score {
+    background-color: white;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.circle {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    width: 330px;
+    height: 330px;
+}
+
+.circle2 {
+    width: 220;
+    height: 220;
+    border-radius: 300px;
+    border: 5px solid blue;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    right: 12%;
+    top: 28%;
+
+}
+
+.num {
+    font-size: 56px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+footer {
+    float: right;
+    padding: 0 20px 10px 20px;
+}
+
+.google {
+    height: 40px;
+    position: relative;
+    top: 10px;
+    bottom: 30px;
+}
+
+.apple {
+    height: 25px;
+}
